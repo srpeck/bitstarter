@@ -79,7 +79,7 @@ if(require.main == module) {
 
     var htmlfile = program.file;
     if(program.url){
-        console.log(downloadFile(program.url));
+        downloadFile(program.url);
         htmlfile = "local.html";
     }
 
